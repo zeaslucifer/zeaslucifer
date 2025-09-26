@@ -10,7 +10,7 @@
     <linearGradient id="g1" x1="0" x2="1">
       <stop offset="0%" stop-color="#00ff00"/>
       <stop offset="50%" stop-color="#0f0f0f"/>
-      <stop offset="100%" stop-color="#bb00ff"/>
+      <stop offset="100%" stop-color="#0f0f0f"/>
     </linearGradient>
 
     <style><![CDATA[
