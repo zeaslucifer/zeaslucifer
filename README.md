@@ -9,6 +9,29 @@
 ### 💻 Skills
 
 ---
+<p align="center">
+  <!-- If you want a GIF later, upload it to the repo and replace the src below:
+  <img src="https://raw.githubusercontent.com/zeaslucifer/zeaslucifer/main/hacker.gif" width="200"/>
+  -->
+</p>
+
+<h1 align="center">
+<pre>
+  ____  _    _   _____   ____    _   _  _   _  _____
+ / ___|| |  | | | ____| / ___|  | | | || \ | || ____|
+ \___ \| |  | | |  _|   \___ \  | | | ||  \| ||  _|
+  ___) | |__| | | |___   ___) | | |_| || |\  || |___
+ |____/ \____/  |_____| |____/   \___/ |_| \_||_____|
+</pre>
+</h1>
+
+<h2 align="center">Hi, I'm ZEAS LUCIFER 👾</h2>
+<p align="center">Exploring the darknet of code | Compiler whisperer | Bug hunter</p>
+
+---
+
+### 💻 Skills
+
 
 ### 📊 GitHub Stats
 <p align="center">
