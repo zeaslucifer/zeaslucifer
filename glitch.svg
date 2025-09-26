@@ -34,6 +34,6 @@
     <text class="title jitter" x="0" y="0">Zeas Lucifer</text>
     <text class="title glitch0" x="2" y="0" fill="#00ff00">Zeas Lucifer</text>
     <text class="title glitch1" x="-2" y="0" fill="#00ff00">Zeas Lucifer</text>
-    <rect x="-10" y="20" width="760" height="6" rx="3" fill="#00ff00" opacity="0.18"/>
+    <rect x="-10" y="20" width="760" height="6" rx="3" fill="#0000" opacity="0.18"/>
   </g>
 </svg>
