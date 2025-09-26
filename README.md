@@ -1,7 +1,7 @@
 # 👋 hey, i'm zeaslucifer
 <img align="right" alt="hacker gif" src="./hacker.gif" width="280"/>
 
-> `root@zeaslucifer:~$` <small>active exploit: curiosity</small>
+
 
 ![glitch](./glitch.svg)
 
