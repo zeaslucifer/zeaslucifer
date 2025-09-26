@@ -8,8 +8,9 @@
 ---
 
 ### quick facts
-- 🔭 tinkering with network toys, reverse engineering & obfuscated scripts  
-- 🧰 main tools: `bash`, `python`, `nmap`, `gdb`, `vim`  
+- 🎓 MEng Cybersecurity student, exploring offensive & defensive realms
+- 🔭 dabbling in packet voodoo, firmware spelunking & delightfully obfuscated scripts 
+- 🧰 main tools: `bash`, `python`, `c++`  
 - 💬 ping me on GitHub — I respond in commits
 
 ---
