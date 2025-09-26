@@ -1,14 +1,3 @@
-
-> Notes:
-> - `./hacker.gif` is a GIF you add to the repo. Use the exact filename and path.
-> - The `github-readme-stats` links are third-party widgets that many profiles use. Change `username=zeaslucifer` to your username.
-
----
-
-## 2) glitch.svg (animated SVG that looks cyber/hacker-y)
-Create a file called `glitch.svg` in the repo and paste this exact SVG content into it. It’s self-contained and will animate inside the README.
-
-```xml
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="120" viewBox="0 0 800 120" preserveAspectRatio="xMidYMid meet">
   <defs>
