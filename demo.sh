@@ -1,54 +1,52 @@
 #!/usr/bin/env bash
-# demo.sh — cinematic README terminal effect
+# demo.sh — cinematic terminal effect for README
 set -euo pipefail
 
-
-type tput >/dev/null 2>&1 || { echo "tput not available — falling back to plain output"; cat <<'EOF'
+# fallback if terminal capabilities are limited
+if ! command -v tput >/dev/null 2>&1; then
+  cat <<'EOF'
 initialising...
+demo finished — be cool, be legal
 EOF
-exit 0; }
+  exit 0
+fi
 
-
-# simple color helpers
-RED=$(tput setaf 1)
-GREEN=$(tput setaf 2)
-CYAN=$(tput setaf 6)
+# terminal styling
 BOLD=$(tput bold)
+CYAN=$(tput setaf 6)
 RESET=$(tput sgr0)
 
-
 slow_print() {
-local s="$1"
-local delay=${2:-0.03}
-for ((i=0; i<${#s}; i++)); do
-printf "%s" "${s:i:1}"
-sleep "$delay"
-done
-printf "\n"
+  local text="$1"
+  local delay="${2:-0.03}"
+
+  for ((i=0; i<${#text}; i++)); do
+    printf '%s' "${text:i:1}"
+    sleep "$delay"
+  done
+  printf '\n'
 }
 
-
 clear
-printf "%s" "$BOLD$CYAN"
+
+printf '%s' "$BOLD$CYAN"
 slow_print "root@zeaslucifer:~$ initialising..." 0.02
 sleep 0.6
-printf "%s" "$RESET"
+printf '%s' "$RESET"
 
-
-# show kernel info (safe)
 echo
-slow_print "=> system info:" 0.01
-uname -a | sed -E 's/.{0,}/ &/'
+slow_print "=> system info" 0.01
+uname -a | sed 's/^/  /'
 
-
-# demo 'scan' header only — do NOT run against remote targets
 echo
-slow_print "=> running demo scan (localhost) — no external targets" 0.01
-printf "\n"
-slow_print "[nmap] detecting services... (simulated)" 0.02
-sleep 0.6
-printf "\n"
-slow_print "# demo finished — be cool, be legal" 0.02
+slow_print "=> running demo scan (localhost only)" 0.01
+sleep 0.3
+slow_print "[nmap] discovering services... (simulated)" 0.02
+sleep 0.5
+slow_print "[nmap] analysing attack surface... (simulated)" 0.02
 
+echo
+slow_print "# demo finished — trust nothing, verify everything" 0.02
 
 exit 0
+
