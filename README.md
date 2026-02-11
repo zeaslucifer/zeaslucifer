@@ -31,8 +31,9 @@ From spinning up **Kali Linux + VMware** pentesting environments to analysing at
 ---
 
 ### stats
-![zeaslucifer's GitHub stats](https://github-readme-stats.vercel.app/api?username=zeaslucifer&show_icons=true&theme=dark&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zeaslucifer&layout=compact&theme=dark&hide_border=true)
+https://github-readme-stats-five-gules-40.vercel.app/api?username=zeaslucifer
+
+
 
 ---
 
