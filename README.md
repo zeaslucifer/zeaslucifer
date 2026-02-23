@@ -7,7 +7,7 @@
 
 ### quick facts
 Breaking things to understand them — then rebuilding them better.  
-I’m **Sathish** (aka **zeaslucifer**), a 24-year-old MEng Cyber Security student on a steady grind toward becoming a serious offensive-defensive security engineer. My journey kicked off the hard way — after a real account compromise — and now I live in labs, logs, and threat models.
+I’m **Sathish** (aka **zeaslucifer**), a 24-year-old MEng Cyber Security student on a steady grind toward becoming a serious offensive-defensive security engineer. My journey kicked off the hard way after a real account compromise and now I live in labs, logs, and threat models.
 
 From spinning up **Kali Linux + VMware** pentesting environments to analysing attack paths, lateral movement, and privilege abuse, I focus on understanding *how attackers think* so systems can be designed to stop them.
 
